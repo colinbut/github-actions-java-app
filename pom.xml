@@ -13,6 +13,7 @@
 	<version>0.0.1-SNAPSHOT</version>
 	<name>github-actions-java-app</name>
 	<description>Java App that uses Github Actions as its CI/CD tool</description>
+	<packaging>jar</packaging>
 
 	<properties>
 		<java.version>1.8</java.version>
