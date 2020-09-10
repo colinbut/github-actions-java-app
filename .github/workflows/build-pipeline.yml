@@ -43,10 +43,10 @@ jobs:
           tag_with_ref: true
 
       - name: push docker image to GitHub Container Registry
-          uses: docker/build-push-action@v1
-          with:
-            username: ${{ github.actor }}
-            password: ${{ secrets.GITHUB_TOKEN }}
-            registry: docker.pkg.github.com
-            repository: colinbut/github-actions-java-app/github-actions-java-app
-            tag_with_ref: true
+        uses: docker/build-push-action@v1
+        with:
+          username: ${{ github.actor }}
+          password: ${{ secrets.GITHUB_TOKEN }}
+          registry: docker.pkg.github.com
+          repository: colinbut/github-actions-java-app/github-actions-java-app
+          tag_with_ref: true

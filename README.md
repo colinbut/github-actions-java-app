@@ -14,7 +14,7 @@ This repo demonstrates CI/CD using Github Actions with a Java Application.
 
 ## Local Development
 
-### Build locally
+### Build locally
 
 ```bash
 ./mvnw clean install
