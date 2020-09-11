@@ -21,10 +21,10 @@ jobs:
         run: ./mvnw clean compile
 
       - name: unit test
-        run: echo running unit test
+        run: ./mvnw test
 
       - name: integration test
-        run: ./mvnw test
+        run: ./mvnw verify
 
       - name: package jar artifact
         run: ./mvnw -Dmaven.test.skip=true package
