@@ -37,3 +37,7 @@ docker build -t github-actions-java-app:latest .
 ```bash
 docker run --rm --name github-actions-java-app -d -p 8080:8080 github-actions-java-app:latest
 ```
+
+## Author
+
+Colin But
