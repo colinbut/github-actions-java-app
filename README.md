@@ -38,6 +38,6 @@ docker build -t github-actions-java-app:latest .
 docker run --rm --name github-actions-java-app -d -p 8080:8080 github-actions-java-app:latest
 ```
 
-## Author
+## Author
 
 Colin But
